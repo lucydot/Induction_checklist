@@ -1,6 +1,6 @@
 # Key settings (must edit)
-project_title: Choochoo template repository
-project_repo: lucydot/ChooChoo-template
+project_title: Choochoo 2022 induction repository
+project_repo: lucydot/Induction_checklist
 admins:
 - lucydot
 - choochoo-bot
@@ -9,7 +9,7 @@ instructors:
 students:
 - lucydot
 - choochoo-bot
-web_address: https://lucydot.github.io/ChooChoo-template
+web_address: https://lucydot.github.io/Induction_checklist
 
 # User options (may edit)
 questions: true
