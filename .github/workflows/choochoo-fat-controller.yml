@@ -26,7 +26,7 @@ jobs:
       with:
         python-version: '3.x'
     - run: pip install https://github.com/lucydot/choochoo/archive/main.zip
-    - run: ${{ format('check_participant {0}', '@'+github.actor) }}
+    - run: ${{ format('check_participant {0}', github.actor) }}
       
   check_instructor_ticket:
     if: github.event.label.name == 'instructor' 
@@ -41,7 +41,7 @@ jobs:
       with:
         python-version: '3.x'
     - run: pip install https://github.com/lucydot/choochoo/archive/main.zip
-    - run: ${{ format('check_instructor {0}', '@'+github.actor) }}
+    - run: ${{ format('check_instructor {0}', github.actor) }}
     
   not_issue_owner:
     if: |
