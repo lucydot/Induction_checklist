@@ -39,10 +39,71 @@ body:
     description: Which checklist item(s) does your question assess?
     label: Checklist items
     options:
-    - label: open and save a Jupyter Notebook
-    - label: use basic Markdown in a notebook
-    - label: create a list
-    - label: add to a list
+    - label: Create a new Jupyter Notebook
+    - label: Save and download a Jupyter Notebook
+    - label: Create Markdown cells in a Jupyter Notebook
+    - label: Run Python code in a Jupyter Notebook
+    - label: Create in-line code comments using `#`
+    - label: Use variables to store values
+    - label: Use `print` to display values
+    - label: Use meaningful variable names
+    - label: Explain the difference between integers and floats
+    - label: Explain the difference between numeric values and strings
+    - label: Convert between numbers and strings
+    - label: Round a number to a specified number of decimal places
+    - label: Use `help()` or `?` (in Jupyter Notebooks) to access help documentation
+        for a function
+    - label: Descrive the difference between syntax errors and runtime errors
+    - label: Create a Python list
+    - label: Find the length of a list
+    - label: Fetch an item from a list using list indexing
+    - label: Fetch multiple item from a list using list slicing
+    - label: Replace an item in a list with a new value
+    - label: Identify the iterable, dummy variable and loop body in a For loop
+    - label: Use a For loop to repeat a basic programming task
+    - label: Use range to iterate over a sequence of numbers
+    - label: Use `if` to control whether a block of code is executed
+    - label: Combine a `for` loop and an `if` loop to implement a basic programming
+        task
+    - label: Use a combination of `if`, `elif` and `else` to implement a basic programming
+        task
+    - label: Test if a combination of things are true using `and` or `or`.
+    - label: Define a simple function that returns a value
+    - label: Call a custom-made function
+    - label: Explain the difference between local and global variables
+    - label: Import a library
+    - label: Import a library using an alias (nickname)
+    - label: Read in data from a text file
+    - label: Describe the difference between Numpy arrays and Python lists
+    - label: Write a Numpy array to a text file
+    - label: Create a one-dimensional Numpy array with zero-values
+    - label: Create a two-dimensional Numpy array with zero-values
+    - label: Create a one-dimensional Numpy array with pre-defined values
+    - label: Create a Numpy array with evenly spaced numbers over a given interval
+    - label: Create a Numpy array with evenly spaced numbers over a given interval
+        in logspace
+    - label: Combine the enumerate function with a `for` loop to populate a Numpy
+        array
+    - label: Use array indexing to select a single element from a 2D array
+    - label: Use array slicing to select a column of a 2D array
+    - label: Use array slicing to select a row of a 2D array
+    - label: Generate a basic line plot
+    - label: Generate a basic scatter plot
+    - label: Label the plot with an x-axis label, y-axis label and title
+    - label: Create a plot legend
+    - label: Use a figure and subplots to group similar plots
+    - label: Save a plot as a `.png` file
+    - label: Use the least-squares method to fit a polynomial function to data
+    - label: Plot the polynomial fit alongside the raw data for comparison
+    - label: Use Numpy array operations to perform mathematical operations across
+        an array
+    - label: Use Numpy functions e.g. `mean`, `max`, `min` or `round` across one or
+        more array axes.
+    - label: Plot the uncertainty associated with a measurement using an errorbar
+    - label: Use assertions to check for internal errors
+    - label: Write docstrings to provide help messages
+    - label: Print package version numbers to increase code reproducibility
+    - label: Re-factor code to reduce code repetition and remove redundant code
   id: checklist
   type: checkboxes
   validations:
